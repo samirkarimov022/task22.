@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8iUiO8iXDtL8QxvTR9A0texJcoPMIBl7vf7SNRAsZcUDsJh95bF9vuv5O08LYNdEJaCC11tLb7KyVe8UNpf+9w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Asus\\OneDrive\\Masaüstü\\Task22\\Task22.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
