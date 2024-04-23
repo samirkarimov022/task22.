@@ -1,0 +1,17 @@
+C:\Users\Asus\OneDrive\Masaüstü\TaskHome22\bin\Debug\net6.0\TaskHome22.exe
+C:\Users\Asus\OneDrive\Masaüstü\TaskHome22\bin\Debug\net6.0\TaskHome22.deps.json
+C:\Users\Asus\OneDrive\Masaüstü\TaskHome22\bin\Debug\net6.0\TaskHome22.runtimeconfig.json
+C:\Users\Asus\OneDrive\Masaüstü\TaskHome22\bin\Debug\net6.0\TaskHome22.dll
+C:\Users\Asus\OneDrive\Masaüstü\TaskHome22\bin\Debug\net6.0\TaskHome22.pdb
+C:\Users\Asus\OneDrive\Masaüstü\TaskHome22\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Asus\OneDrive\Masaüstü\TaskHome22\obj\Debug\net6.0\TaskHome22.csproj.AssemblyReference.cache
+C:\Users\Asus\OneDrive\Masaüstü\TaskHome22\obj\Debug\net6.0\TaskHome22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\OneDrive\Masaüstü\TaskHome22\obj\Debug\net6.0\TaskHome22.AssemblyInfoInputs.cache
+C:\Users\Asus\OneDrive\Masaüstü\TaskHome22\obj\Debug\net6.0\TaskHome22.AssemblyInfo.cs
+C:\Users\Asus\OneDrive\Masaüstü\TaskHome22\obj\Debug\net6.0\TaskHome22.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Masaüstü\TaskHome22\obj\Debug\net6.0\TaskHome22.csproj.Up2Date
+C:\Users\Asus\OneDrive\Masaüstü\TaskHome22\obj\Debug\net6.0\TaskHome22.dll
+C:\Users\Asus\OneDrive\Masaüstü\TaskHome22\obj\Debug\net6.0\refint\TaskHome22.dll
+C:\Users\Asus\OneDrive\Masaüstü\TaskHome22\obj\Debug\net6.0\TaskHome22.pdb
+C:\Users\Asus\OneDrive\Masaüstü\TaskHome22\obj\Debug\net6.0\TaskHome22.genruntimeconfig.cache
+C:\Users\Asus\OneDrive\Masaüstü\TaskHome22\obj\Debug\net6.0\ref\TaskHome22.dll

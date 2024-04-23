@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YCFpEGZIoEchzzsX71d2o31hJD67PyF+FEAASAYAu+0fgbbWAx09damJVXAlGJKDtd9GrZ202+Fq+vjNHUx4Ig==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Asus\\OneDrive\\Masaüstü\\TaskHome22\\TaskHome22.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
