@@ -5,45 +5,75 @@ namespace Task22
 {
     internal class Program
     {
-        
-      // mellim kod bele deyildi error cox idi errorlari sildim qaldi bele belede islemir onsuz :)
-        
         static void Main(string[] args)
         {
-
-            List<string> namesList = new List<string>();
-            string json = JsonConvert.SerializeObject(namesList);
             Add("samir");
-            Add("garib");
-            Add("emil");
+            Add("Emil");
+            Add("Garib");
 
-            using (StreamReader sr = new StreamReader(@""))
+            //Console.WriteLine(Search(@"C:\Users\hp\source\repos\SerializeReparte\Files\tsconfig1.json", "Alik"));
+            //Delete("Emil");
+        }
+        public static void Add(string name)
+        {
+            string path = @"C:\Users\Asus\OneDrive\Masaüstü\task22.2\Task22\Json\names.json";
+            List<string> names = Deserialize(path);
+            names.Add(name);
+
+            Serialize<List<string>>(path, names);
+
+        }
+        public static void Search(string path)
+        {
+
+        }
+        public static void Delete(string name)
+        {
+            string path = @"C:\Users\Asus\OneDrive\Masaüstü\task22.2\Task22\Json\names.json";
+            List<string> names = Deserialize(path);
+            names.Remove(name);
+            Serialize<List<string>>(path, names);
+        }
+        public static List<string> Deserialize(string path)
+        {
+            string result;
+
+
+            using (StreamReader sr = new StreamReader(path))
             {
-                Console.WriteLine(sr.ReadToEnd());
+                result = sr.ReadToEnd();
             }
-
-            using (StreamWriter sw = new StreamWriter(@""))
+            List<string> names = JsonConvert.DeserializeObject<List<string>>(result);
+            return names;
+        }
+        public static void Serialize<T>(string path, T obj)
+        {
+            string result = JsonConvert.SerializeObject(obj);
+            using (StreamWriter sw = new StreamWriter(path))
             {
-                sw.WriteLine(json);
+                sw.Write(result);
             }
-            
-            Console.WriteLine( Search("samir")); 
-            Console.WriteLine( Search("garib"));
         }
-        
-        static void Add(string name) 
-        {
-            Add(name); 
-        }
-        static bool Search(string name)
-        {
-            return Search(name);
-        }
+        //public static List<string> Deserialize(string path)
+        //{
+        //    string result;
 
-        static void Delete(int index)
-        {
-           
-        }
-        
+
+        //    using (StreamReader sr = new StreamReader(path))
+        //    {
+        //        result = sr.ReadToEnd();
+        //    }
+        //    List<string> names = JsonConvert.DeserializeObject<List<string>>(result);
+        //    return names;
+        //}
+        //public static void Serialize<T>(string path, T obj)
+        //{
+        //    string result = JsonConvert.SerializeObject(obj);
+        //    using (StreamWriter sw = new StreamWriter(path))
+        //    {
+        //        sw.Write(result);
+        //    }
+        //}
+       
     }
 }

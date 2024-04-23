@@ -61,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\OneDrive\\Masaüstü\\Task22\\Task22.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\OneDrive\\Masaüstü\\task22.2\\Task22\\Task22.csproj",
       "projectName": "Task22",
-      "projectPath": "C:\\Users\\Asus\\OneDrive\\Masaüstü\\Task22\\Task22.csproj",
+      "projectPath": "C:\\Users\\Asus\\OneDrive\\Masaüstü\\task22.2\\Task22\\Task22.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\OneDrive\\Masaüstü\\Task22\\obj\\",
+      "outputPath": "C:\\Users\\Asus\\OneDrive\\Masaüstü\\task22.2\\Task22\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
